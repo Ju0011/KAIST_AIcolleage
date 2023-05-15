@@ -1,0 +1,78 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1684042453479)
++++ b/.idea/vcs.xml	(date 1684042453479)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: 5.14/Three_olor_Poster/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/5.14/Three_olor_Poster/main.py b/5.14/P1_Three_Color_Poster/main.py
+rename from 5.14/Three_olor_Poster/main.py
+rename to 5.14/P1_Three_Color_Poster/main.py
+--- a/5.14/Three_olor_Poster/main.py	(revision 81401bb5b30685cd9d7278aabd7c18aad79764eb)
++++ b/5.14/P1_Three_Color_Poster/main.py	(date 1684042681652)
+@@ -4,7 +4,6 @@
+ green = (0, 255, 0)
+ blue = (0, 0, 255)
+ 
+-# 별도의 이미지를 업로드하여 사용하세요
+ image = load_picture('panda.jpg')  # 이미지 파일 이름 필수
+ 
+ width, height = image.size()
+Index: 5.14/P2_Number_Conversion/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/5.14/P2_Number_Conversion/main.py b/5.14/P2_Number_Conversion/main.py
+new file mode 100644
+--- /dev/null	(date 1684042753092)
++++ b/5.14/P2_Number_Conversion/main.py	(date 1684042753092)
+@@ -0,0 +1,33 @@
++import math
++
++def number_to_digit(n):
++    return str(n) if n < 10 else ['A', 'B', 'C', 'D', 'E', 'F'][n-10]
++
++def dec_to_any_list(n,radix):
++    new_num = []
++    while n > 0:
++        new_num.insert(0, n % radix)
++        n //= radix
++    return ''.join([number_to_digit(element) for element in new_num])
++
++def dec_to_any_string(n, radix):
++    new_num = ''
++    while n > 0:
++        new_num = number_to_digit(n % radix) + new_num
++        n = n // radix
++    return new_num
++
++def main():
++    n = int(input('Enter a number: '))
++    if n < 0:
++        print("Wrong Input!!!")
++        return
++    radix = int(input('Enter a radix: '))
++    if radix < 2 or radix > 16:
++        print("Wrong Input!!!")
++        return
++
++    print(f'List: {n} is {dec_to_any_list(n, radix)} in base {radix}')
++    print(f'String: {n} is {dec_to_any_string(n, radix)} in base {radix}')
++
++main()
