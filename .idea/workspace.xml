@@ -7,16 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="edit">
-      <change afterPath="$PROJECT_DIR$/5.16/P2_defaults.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.16/P3_zscore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.16/P4_compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.16/P5_happiness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.16/data/defaults.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.16/data/world_happiness_scores.csv" afterDir="false" />
+    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="0561_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.15/P5_Value_Counts.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.15/P5_Value_Counts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.16/P1.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.16/P1_S&amp;P500.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.16/P5_happiness.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.16/P5_happiness.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,7 @@
       <recent name="C:\Users\82109\PycharmProjects\5.14\Three_Color_Poster" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.P4_compare">
+  <component name="RunManager" selected="Python.P5_happiness">
     <configuration name="P1_S&amp;P500 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,27 +68,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.16/P1_S&amp;P500.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="P1_S&amp;P500" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.16" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\82109\PycharmProjects\5.16\P1_S&amp;P500.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,13 +139,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="P5_happiness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.16/P5_happiness.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P5_happiness" />
         <item itemvalue="Python.P4_compare" />
         <item itemvalue="Python.P1_S&amp;P500 (1)" />
         <item itemvalue="Python.P3_zscore" />
         <item itemvalue="Python.P5_Value_Counts" />
-        <item itemvalue="Python.P1_S&amp;P500" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684231737164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0561_3">
+      <created>1684239711909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684239711909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +229,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="0561_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="0561_3" />
   </component>
 </project>
