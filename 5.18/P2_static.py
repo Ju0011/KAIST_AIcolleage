@@ -1,8 +1,9 @@
+#정적인 버전
+
 class Queue:
     def __init__(self, N=4):
         self.arr = []
         self.length = N
-
 
     def is_full(self):
         # 큐가 가득 차있는지 확인
@@ -34,7 +35,17 @@ class Queue:
         return self.arr.pop(0)
 
     def top(self):
-        pass
+        #Q에서 첫번째 item 돌려준다/ 확인한다
+        if self.is_empty():
+            print("Q가 비어있음")
+            return
+        return self.arr[0]
+    def tail(self):
+        # Q에서 마지막 item 돌려준다/ 확인한다
+        if self.is_empty():
+            print("Q가 비어있음")
+            return
+        return self.arr[-1]
 
 queue = Queue(4)
 print(queue.is_empty())
