@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="0561_fin">
-      <change afterPath="$PROJECT_DIR$/5_17.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.16/P2_defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.16/P2_defaults.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="C:\Users\82109\PycharmProjects\5.14\Three_Color_Poster" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5_17">
+  <component name="RunManager" selected="Python.P2_defaults">
     <configuration name="5_17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="P3_zscore" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="P2_defaults" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.16/P3_zscore.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.16/P2_defaults.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.P2_defaults" />
         <item itemvalue="Python.5_17" />
         <item itemvalue="Python.P5_happiness" />
         <item itemvalue="Python.P4_compare" />
         <item itemvalue="Python.P1_S&amp;P500 (1)" />
-        <item itemvalue="Python.P3_zscore" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684241601353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0561_fin">
+      <created>1684328014224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684328014224</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
