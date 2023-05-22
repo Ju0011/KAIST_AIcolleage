@@ -7,7 +7,7 @@ websites 입력값
 action 순서 : ['back', 'front', 'back', 'back']
 
 <Deatil>
- 1. 출력값 : 최종 도달한 웺사이트
+ 1. 출력값 : 최종 도달한 웹사이트
  2. back을 너무 많이 하는 경우 : '불가능합니다' 출력
  '''
 
