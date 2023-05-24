@@ -7,10 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="0518_fin">
-      <change afterPath="$PROJECT_DIR$/5.19/Circular_LinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.19/Dual_LinkedLIst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.19/LinkedList.py" afterDir="false" />
+    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="finfin">
+      <change afterPath="$PROJECT_DIR$/5.23/Factional_Downup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.23/FindDustSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.23/HanoiTower.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.23/Insert_Sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.23/RecursiveStarts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.23/Selection_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.24/BubbleSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.24/MergeSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.24/QuickSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/82109/PycharmProjects/5.16/data",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "two.files.diff.last.used.folder": "C:/Users/82109/PycharmProjects"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/82109/PycharmProjects/5.16/data&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/82109/PycharmProjects&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\82109\PycharmProjects\5.16\data" />
@@ -253,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684414192587</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finfin">
+      <created>1684760285148</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684760285148</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +294,7 @@
     <MESSAGE value="0518_second" />
     <MESSAGE value="0518_dynamic" />
     <MESSAGE value="0518_fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="0518_fin" />
+    <MESSAGE value="finfin" />
+    <option name="LAST_COMMIT_MESSAGE" value="finfin" />
   </component>
 </project>
