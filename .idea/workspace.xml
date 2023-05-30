@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="5_24">
-      <change afterPath="$PROJECT_DIR$/5.25/BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.25/Tree.py" afterDir="false" />
+    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="5_25">
+      <change afterPath="$PROJECT_DIR$/5.29/DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.29/changes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684930334193</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="5_25">
+      <created>1685102609163</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685102609163</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,6 +303,7 @@
     <MESSAGE value="0518_fin" />
     <MESSAGE value="finfin" />
     <MESSAGE value="5_24" />
-    <option name="LAST_COMMIT_MESSAGE" value="5_24" />
+    <MESSAGE value="5_25" />
+    <option name="LAST_COMMIT_MESSAGE" value="5_25" />
   </component>
 </project>
