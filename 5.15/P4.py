@@ -6,7 +6,7 @@ elice_utils = EliceUtils()
 #최댓값과 그 위치 구하기
 
 def get_max(df):
-    max_index = df["residual sugar"].index() #최대값의 위치
+    max_index = df["residual sugar"].index #최대값의 위치
     max_val, density_val = df.loc[max_index, ["residual sugar", "density"]]
 
     density_at = 0
