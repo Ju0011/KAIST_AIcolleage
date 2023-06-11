@@ -1,6 +1,7 @@
 
 from urllib.request import urlopen  #1
 from bs4 import BeautifulSoup  #2
+import pandas as pd
 
 date = 202201  #3
 gu_code = 11305  #4

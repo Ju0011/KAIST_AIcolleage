@@ -31,6 +31,7 @@ items = res.json().get('response').get('body').get('items')
 print(res.json().get('response').get('body').get('items'))
 #type(res.json().get('response').get('body').get('items')) #타입은 딕셔너리
 
+#활용
 data = dict()
 data['date'] = base_date
 

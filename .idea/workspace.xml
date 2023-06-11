@@ -7,14 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="6_11 practice_1">
-      <change afterPath="$PROJECT_DIR$/6_11/Naver_Search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_11/Naver_Shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_11/OpenAPI_Apart.py" afterDir="false" />
+    <list default="true" id="3c30dc27-f06e-4e46-9201-55e90ee9afdd" name="Changes" comment="6_11 api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_11/NaverSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_11/Naver_News.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6_11/OpenAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_11/OpenAPI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_11/WebScrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_11/WebScrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_11/OpenAPI_Apart.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_11/OpenAPI_Apart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686461155641</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="6_11 api">
+      <created>1686467416286</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686467416286</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,6 +358,7 @@
     <MESSAGE value="6_08" />
     <MESSAGE value="6_11 first" />
     <MESSAGE value="6_11 practice_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="6_11 practice_1" />
+    <MESSAGE value="6_11 api" />
+    <option name="LAST_COMMIT_MESSAGE" value="6_11 api" />
   </component>
 </project>
