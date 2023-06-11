@@ -1,3 +1,4 @@
+#request 모듈 사용
 import requests
 
 def download(url, file_name):

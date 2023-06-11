@@ -11,7 +11,14 @@ html = """
 """
 
 soup = BeautifulSoup(html, "html.parser")
-title_data = soup.find('h1')# 태그로 검색 방법
+title_data = soup.find('h1')# 태그로 검색 방법 - 하나만
+'''
+title_data = soup.select_one('h1')# 태그로 검색 방법
+
+title_data = soup.find_all('h1')# 태그로 검색 방법 - 전체 추출
+title_data = soup.select('h1')# 태그로 검색 방법
+'''
+
 print(title_data)
 print(title_data.string)
 print(title_data.get_text())
