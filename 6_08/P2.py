@@ -15,4 +15,4 @@ for i, music in enumerate(musics):
     # input 태그안에 title 속성값을 parsing한다.
     detail = music.input
     title = detail.get('title')
-    print(title)
+    print(i+1, title)
