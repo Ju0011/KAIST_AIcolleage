@@ -1,11 +1,12 @@
 
-from urllib.request import urlopen  #1
-from bs4 import BeautifulSoup  #2
+import requests
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
 import pandas as pd
 
 date = 202201  #3
 gu_code = 11305  #4
-service_key = "clCEJad0tTqdiSPIpwIKf1s%2FmOlQyCBXSVK6yt2OxzqUmgboB4KjsR2NnNuCo2vsS3LmoZQQKZD9bMP48ZZ8gg%3D%3D" #5
+service_key = 'clCEJad0tTqdiSPIpwIKf1s%2FmOlQyCBXSVK6yt2OxzqUmgboB4KjsR2NnNuCo2vsS3LmoZQQKZD9bMP48ZZ8gg%3D%3D' #5
 
 url = f'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/'\
     f'getRTMSDataSvcAptRent?LAWD_CD={gu_code}&DEAL_YMD={date}&'\
